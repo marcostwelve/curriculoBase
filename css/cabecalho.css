@@ -1,0 +1,9 @@
+.cabecalho {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: var(--titulo-tamanho-fonte);
+    font-weight: var(--peso-titulo);
+    background-color: var(--cor-fundo-cabecalho);
+}

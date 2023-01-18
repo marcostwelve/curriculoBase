@@ -1,0 +1,32 @@
+.rodape {
+    width: 100%;
+    background-color: var(--cor-fundo-cabecalho);
+    padding: 1rem;
+}
+
+.rodape__conteudo {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.rodape__descricao {
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links li {
+    margin-right: 1rem;
+}
+
+.link {
+    font-weight: 500;
+    color: var(--cor-de-texto);
+    text-decoration: none;
+    cursor: pointer;
+}

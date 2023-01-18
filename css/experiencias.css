@@ -1,0 +1,13 @@
+.secao__experiencias {
+    margin: var(--margem-secoes);
+}
+
+.titulo__experiencias {
+    font-weight: 500;
+    margin-bottom: var(--margem-titulo);
+    color: var(--titulo-profissional);
+}
+
+.descricao__profissional {
+    margin-bottom: var(--margem-titulo);
+}

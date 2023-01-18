@@ -1,0 +1,12 @@
+.secao__cursos {
+    margin: var(--margem-secoes);
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin-bottom: var(--margem-titulo);
+}

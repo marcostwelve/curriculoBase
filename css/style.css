@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('cabecalho.css');
+@import url('objetivos.css');
+@import url('educacao.css');
+@import url('experiencias.css');
+@import url('cursos.css');
+@import url('rodape.css');
+
+:root {
+    --cor-de-fundo: #fff;
+    --cor-de-texto: #000;
+    --fonte-corpo:'Open Sans', sans-serif;
+    --tamanho-fonte: 18px;
+    --titulo-tamanho-fonte: 20px;
+    --peso-titulo: 600;
+    --cor-fundo-cabecalho: #a3a2a2;
+    --margem-secoes: 2rem auto;
+    --margem-titulo: 1rem;
+    --espaco-linhas: 1.2rem;
+    --titulo-profissional: #333381;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+    font-family: var(--fonte-corpo);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.titulo__secao {
+    margin-bottom: var(--margem-titulo);
+    font-weight: var(--peso-titulo);
+    font-size: var(--tamanho-fonte);
+    letter-spacing: 1px;
+}
+
+.texto {
+    line-height: var(--espaco-linhas);
+}

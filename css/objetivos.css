@@ -1,0 +1,9 @@
+.secao__objetivos {
+    margin: var(--margem-secoes);
+}
+
+.objetivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

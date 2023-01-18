@@ -1,0 +1,66 @@
+@media only screen and (min-width: 750px) {
+    .container {
+        max-width: 750px;
+    }
+    .cabecalho {
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+    .rodape__descricao {
+        font-size: var(--tamanho-fonte);
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .container {
+        max-width: 1024px;
+    }
+
+    .titulo__secao {
+        font-size: 1.5rem;
+    }
+
+    .rodape__conteudo {
+        justify-content: center;
+    }
+
+    .rodape__descricao {
+        margin-right: 2rem;
+        font-size: var(--tamanho-fonte);
+    }
+}
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+
+    .container::after {
+        white-space: pre;
+        content: "https://www.linkedin.com/in/mauricio-marcelino-388a4323a/\Ahttps://github.com/marcostwelve";
+        font-weight: var(--peso-titulo);
+    }
+
+    .texto {
+        text-align: justify;
+    }
+
+    .titulo__experiencias {
+        color: var(--cor-de-texto);
+    }
+
+    .rodape {
+        display: none;
+    }
+}
